@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/nombres"
         android:inputType="text"
-        android:text="Name"
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="81dp" />
 
@@ -21,26 +21,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/apellidos"
         android:inputType="text"
-        android:text="Name"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="154dp" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/telefono"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
-        android:text="Name"
+        android:hint="@string/telefono"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="226dp" />
 
     <Button
-        android:id="@+id/boton1"
+        android:id="@+id/btnproceso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Procesar"
         tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="300dp" />
 
